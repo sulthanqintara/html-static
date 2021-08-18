@@ -1,0 +1,307 @@
+* {
+  font-family: Nunito;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(/Nunito/Nunito-Light.ttf);
+}
+@font-face {
+  font-family: "Play Fair";
+  src: url(/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+  font-family: "Mulish";
+  src: url(/Mulish/static/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito 900";
+  src: url(/Nunito/Nunito-Black.ttf);
+}
+@font-face {
+  font-family: "Nunito 700";
+  src: url(/Nunito/Nunito-Bold.ttf);
+}
+
+.font-playfair {
+  font-family: "Play Fair";
+}
+.font-mulish {
+  font-family: "Mulish";
+}
+.font-nunito-700 {
+  font-family: "Nunito 700";
+}
+.font-nunito-900 {
+  font-family: "Nunito 900";
+}
+/* Navbar Section */
+nav {
+  padding: 82px 150px 75px 92px;
+}
+ul > li {
+  margin: 0.2em 0.5em;
+}
+.mail-icon > a > img {
+  width: 40px;
+  height: 36px;
+  margin: 0 3rem 0 10rem;
+}
+
+main {
+  padding: 3rem 110px;
+}
+
+/* *****Top Profile section***** */
+.profile-photo {
+  background-position: 0% 30%;
+  background-image: url(https://s3-alpha-sig.figma.com/img/0ccd/b210/685819c7ff9c7e2cbb23e6190ab4ef92?Expires=1630281600&Signature=egB8q48e7weEd425rGhJIP2lA500gigv3CkDfdcEGeE3M0~3zXCWKCMV80jqxN9JsHtLFhmo1NqqAWUnnfUrHyV4GPLAREN1iD68kmgqJaSiMvSwYyzgszo0WYXdg3X5MMn7ZHN8PDMjDWQSlDDPe6EA437KFG~dBb7vPj8crE5AN-N1R2iy-3THv4ZQ0exGsGpihLLWURxdk3Z0sSSJERQPgmDvKeFD0t0saebTc9aB4ZRmdZ9v66-Z2yY~WVDH9ts8tekmvyuvwKZTkGlNBrSseth0ioh~pFznQFREx0kwvmtxG8aV1l3yJylF-f2WVPOupY~5fz6KlEDS5Cl8LA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-repeat: no-repeat;
+}
+.profile-icon {
+  background-size: 100%;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.profile-display {
+  /* position: relative; */
+  height: 218px;
+  border-radius: 50%;
+  margin: auto;
+  width: 218px;
+  background-size: 100%;
+}
+.profile-text {
+  font-size: 36px;
+}
+.top-profile {
+  margin: auto;
+  width: 50%;
+}
+.edit-profile {
+  margin-top: 75%;
+  float: right;
+  background: #ffcd61;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name {
+  font-size: 48px;
+}
+p.profile-desc {
+  color: #b8becd;
+  margin-bottom: 3rem;
+}
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.gender-container {
+  text-align: left;
+  display: block;
+  position: relative;
+  padding-left: 49px;
+  margin: 0 86px 12px 86px;
+  cursor: pointer;
+  font-size: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default radio button */
+.gender-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+/* On mouse-over, add a grey background color */
+.gender-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* When the radio button is checked, add a background */
+.gender-container input:checked ~ .checkmark {
+  background-color: #393939;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+.gender-container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the indicator (dot/circle) */
+.gender-container .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffcd61;
+}
+
+/* *****Profile Fields Section***** */
+.profile-fields {
+  font-size: 24px;
+}
+.profile-fields-title {
+  font-family: "Nunito 900";
+  padding-top: 5rem;
+}
+.profile-fields-subtitle {
+  color: #9f9f9f;
+  padding-top: 29px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 26px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.identity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.identity-flex {
+  flex-grow: 1;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 26px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.edit-profile-button > div > a > button {
+  width: 322px;
+  height: 89px;
+  border-radius: 10px;
+  font-family: "Nunito 900";
+  font-size: 24px;
+  border: none;
+  padding: 0;
+}
+
+.btn-save {
+  background: #ffcd61;
+}
+.btn-edit-pass {
+  background: #393939;
+  color: #ffcd61;
+  margin: 0 0.5rem;
+}
+
+/* ******Footer Section****** */
+footer {
+  background-color: #f9f9fb;
+  padding: 76px 91px;
+}
+
+.footer-column {
+  padding-left: 108px;
+}
+
+.footer-line {
+  border: solid 0.5px #c4c4c4;
+  margin: 20px 0px;
+}
+.social-media {
+  align-items: center;
+}
+.footer-column > p {
+  margin-bottom: 8px;
+}
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .edit-profile-button > div > a > button {
+    width: 250px;
+    height: 72px;
+    border-radius: 10px;
+    font-family: "Nunito 900";
+    font-size: 24px;
+    border: none;
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+  .mail-icon > a > img,
+  .profile-icon {
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .edit-profile-button {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail-icon > a > img,
+  .profile-icon {
+    margin: 0.5rem 0;
+  }
+  .footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column {
+    text-align: center;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 1rem 1rem;
+  }
+  nav {
+    padding: 0.5rem 2rem;
+  }
+  .identity-container {
+    flex-direction: column;
+  }
+  .identity-container > div {
+    width: 100%;
+  }
+  .gender {
+    flex-direction: column;
+  }
+  .top-profile {
+    width: 100%;
+  }
+  .profile-text {
+    text-align: center;
+  }
+}

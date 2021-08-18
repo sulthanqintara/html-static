@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>Rental King Motor Reservation</title>
+    <link rel="stylesheet" href="reservation.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <svg height="3em" width="3em">
+            <circle
+              cx="1.5em"
+              cy="1.5em"
+              r="1em"
+              stroke="white"
+              stroke-width="3"
+              fill="#393939"
+            />
+            <circle
+              cx="1.5em"
+              cy="1.5em"
+              r=".4em"
+              stroke="white"
+              stroke-width="3"
+              fill="orange"
+            />
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vehicle Types</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="mail-icon">
+              <a class="nav-link" href="#"
+                ><img
+                  src="https://s3-alpha-sig.figma.com/img/0dd0/db3a/068d9789f6cedcc78d1f3067ec9d92b5?Expires=1630281600&Signature=ED6W5LYpDvAR~MANGRfEG1lXGr99hlrsTAmnfx-s2cznW6WXvAEU0J8c4PNf-AylWwwrTnhslB-~Xa8fwkTO49DXgf06dzR0eumjU917WGq8v2DSBHBfP3gt5pE4orFnFvOJbX1mcFVfRzBkjI-VMc~B61dE4ljXhcxdncdab8vTz8rL-qUv81TJQPfyEnsQW5GgCFMcfrtT54lm~lvscETaFpJnpfOXvKrhN9e6U2X9O0zt9-um1crKptEcryTRCz5QyN1006CFMWS8-BquXQ0ZnEzhvsy538VvER2AbNQe9lUqqx-qaAixmuB-7X0tPFvh178nZ2mgGSiQj469WA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+                  alt=""
+              /></a>
+              <a href=""></a>
+            </li>
+            <li class="profile-photo profile-icon">
+              <a class="nav-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <a href="">
+        <div class="reservation-title font-nunito-700">
+          <img src="/arrow-left.png" alt="" />
+          Reservation
+        </div>
+      </a>
+      <section
+        class="
+          d-flex
+          flex-column
+          justify-content-center
+          flex-xl-row
+          product-detail
+        "
+      >
+        <div class="pic-container">
+          <div class="product-pic"></div>
+        </div>
+        <div class="flex-grow-1 product-reserve">
+          <p class="font-playfair-900" style="font-size: 48px">
+            Fixie - Gray Only <br /><span
+              class="font-playfair"
+              style="font-size: 36px"
+              >Yogyakarta</span
+            >
+          </p>
+          <p class="no-prepayment">No Prepayment</p>
+          <div class="d-flex flex-row interactive-btn">
+            <a href="#">
+              <button class="flex-fill rmv-btn">-</button>
+            </a>
+            <div class="flex-fill amount-add">2</div>
+            <a href="#">
+              <button class="flex-fill add-btn">+</button>
+            </a>
+          </div>
+          <p class="font-nunito-700">Reservation Date :</p>
+          <div>
+            <input type="date" id="DD/MM/YY" name="DD/MM/YY" value="" />
+          </div>
+          <select class="item1" name="" id="">
+            <option value="duration">1 Day</option>
+            <option value="duration">2 Days</option>
+            <option value="duration">3 Days</option>
+            <option value="duration">4 Days</option>
+            <option value="duration">5 Days</option>
+          </select>
+        </div>
+      </section>
+      <section>
+        <a href="#">
+          <button class="btn-pay font-nunito-900">Pay now : Rp. 178.000</button>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <div class="d-flex bd-highlight mb-3 footer-flex">
+        <div class="flex-grow-1 bd-highlight footer-column">
+          <svg height="3em" width="3em">
+            <circle
+              cx="1.5em"
+              cy="1.5em"
+              r="1em"
+              stroke="white"
+              stroke-width="3"
+              fill="#393939"
+            />
+            <circle
+              cx="1.5em"
+              cy="1.5em"
+              r=".4em"
+              stroke="white"
+              stroke-width="3"
+              fill="orange"
+            />
+          </svg>
+          <p>
+            Plan and book your perfect trip with expert advice, travel tips for
+            vehicle information from us
+          </p>
+          <p>©2020 Vehicle Rental Center. All rights reserved</p>
+        </div>
+        <div class="bd-highlight footer-column">
+          <p class="fw-bold mb-3">Destinations</p>
+          <p><a class="footer-text" href="#">Bali</a></p>
+          <p>
+            <a class="footer-text" href="#">Yogyakarta</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Jakarta</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Kalimantan</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Malang</a>
+          </p>
+        </div>
+        <div class="bd-highlight footer-column">
+          <p class="fw-bold mb-3">Vehicles</p>
+          <p><a class="footer-text" href="#">Bike</a></p>
+          <p>
+            <a class="footer-text" href="#">Cars</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Motorbike</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Return Times</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">FAQs</a>
+          </p>
+        </div>
+        <div class="bd-highlight footer-column">
+          <p class="fw-bold mb-3">Interests</p>
+          <p><a class="footer-text" href="#">Adventure</a></p>
+          <p>
+            <a class="footer-text" href="#">Travel</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Art and Culture</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Wildlife and Nature</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Family Holidays</a>
+          </p>
+          <p>
+            <a class="footer-text" href="#">Culinary Trip</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="d-flex flex-row mb-3 justify-content-center social-media">
+        <a href="#"
+          ><img class="mx-3" src="/social-media-icon/Vector-twitter.png" alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="mx-3"
+            src="/social-media-icon/Vector-facebook.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img
+            class="mx-3"
+            src="/social-media-icon/Group-instagram.png"
+            alt=""
+        /></a>
+        <a href="#"
+          ><img class="mx-3" src="/social-media-icon/Group-linkedin.png" alt=""
+        /></a>
+        <a href="#"
+          ><img class="mx-3" src="/social-media-icon/Vector-youtube.png" alt=""
+        /></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

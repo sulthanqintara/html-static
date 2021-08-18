@@ -1,0 +1,345 @@
+* {
+  font-family: Nunito;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(/Nunito/Nunito-Light.ttf);
+}
+
+@font-face {
+  font-family: "Play Fair";
+  src: url(/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(/Mulish/static/Mulish-Regular.ttf);
+}
+.font-playfair {
+  font-family: "Play Fair";
+}
+.font-mulish {
+  font-family: "Mulish";
+}
+.navbar-brand {
+  padding-left: 2rem;
+  margin-left: 3em;
+}
+button {
+  padding: 6px 36px;
+  border: 0px;
+  border-radius: 8px;
+}
+li.nav-item {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.1);
+}
+.btn-yellow {
+  background-color: #ffcd61;
+}
+.btn-login {
+  background-color: white;
+  border: 1px solid#FFCD61;
+}
+ul > li {
+  margin: 0.2em 0.5em;
+}
+.nav-link {
+  font-weight: 100;
+}
+
+.bg-hero {
+  padding: 69px 121px;
+  height: 767px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://s3-alpha-sig.figma.com/img/8e00/a44b/9a08bd95d830a13924f4a64ef20a65f1?Expires=1629676800&Signature=dKhjuo07fAbTtJNS98zY5b~Onh8P1V7ZFq4~o8VXc6BmEz0phOUChNHcLi9t~uIMcgNTYPduuupdAAagwPla5ogweraikudcqKIZs9PDeHv5Ic0whN1qOlWqKClvH3BwUrju0lvS~wxpBxEYGfOGTFgMo56CbMwB7pglkZbAcGYVa7U3O3Let-si3YMhYRi30D61dhTqa9zmCmM65WBTR3gkq9TDeCPIKJ-QGbZhWUDqie8-iUoX3Pag6dKNWo6Bs4TDEtj8r40vY9zW2kV39TTUmhSR7t65AfU5-VSY0W25ChNyJddIHjGyFIGU520QIg8skdc35AC7Pm-gOJRzmg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+}
+.item1 {
+  grid-area: location;
+}
+.item2 {
+  grid-area: type;
+}
+.item3 {
+  grid-area: payment;
+}
+.item4 {
+  grid-area: date;
+}
+.item1,
+.item2,
+.item3,
+.item4 {
+  padding: 10px;
+  border-radius: 6px;
+  opacity: 0.5;
+  width: 250px;
+}
+.btn-explore {
+  margin-top: 51px;
+  width: 180px;
+  height: 52px;
+}
+.width-dropdown {
+  display: grid;
+  width: 500px;
+  grid-template-areas:
+    "location type"
+    "payment date";
+  grid-gap: 35px;
+}
+.title-hero {
+  font-size: 64px;
+  width: 356px;
+}
+.font-900 {
+  font-weight: 900;
+}
+
+.popular {
+  padding: 82px 181px 71px 139px;
+}
+.popular-title {
+  display: flex;
+  justify-content: space-between;
+}
+.text-view {
+  color: #fb8f1d;
+  line-height: 60px;
+}
+.text-view:hover {
+  color: #ffcd61;
+}
+.popular-1,
+.popular-2,
+.popular-3,
+.popular-4 {
+  border-radius: 8px;
+  width: 261px;
+  height: 332px;
+  margin: 10px 10px;
+  padding: 0px;
+  background-repeat: no-repeat;
+}
+.popular-1 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/1969/8323/f77a90159083bf92b298e53f90b02469?Expires=1629676800&Signature=e2ivfninzm48iqd2VHwt9y6g~GnOTyIBMAapypXS6Wc~iceQgTDo~NgWuo8A7br~BdFpq~7MwOwprBwbmvOpV1mp6IwjwUlyTrxReY1QFhkAfEouUiNBXR83LE7ocmPCdcuqMIsWMtUkaI~USrZf0q8Hm0SxjBGuOl3bP2jEaEhcilz8vEkoI1WYejQ1XMRdPkhClQZIno4xx6v2aSvWxMl7dWEwkiz0lSE4fXXIx5QgmGXlJJZ2nWpSjS1SGPKfvxfxhGZLHqQAMkugXJseufQsJLBtS2I2KV~tluFmV~xh1Ki-nkXFtP9ng~LxTuyHk8F7soVrjChK3Ol~GBLejQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: 100%;
+}
+.popular-2 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/397f/a6c5/87fd34fd80395017a9c5660ecc89ac90?Expires=1629676800&Signature=ggl5bbXEIeTC~vn~y3LeVAGBmVeQX3M42xxxb~~cj4mHiZES4b5nndzko2azHvJgk7YH2FA-tIUiFpLjtWZmFYukoF-urs6t2DFCscu01qSYcLwHFBWAc9I7cN1JCKY5XnmsFRzug9V3OnIt9dk0aFmysC-1HKbWPh2ErQu-OdE0z8rQED9YqBnwEdhpR-z2keajpZPI260Ox82OtZ3sFhnogRrZTUuvcT9v7O-~ff-OP3iJlWpqU9Z1Pzlsgs-i2jP5FV9XdCq3CxynkAv7QFFJQ1infCjcG2Bn445wphBy2pA8MjMoPpoKpkE5nwlGD94pKpAwLkI7kQ~vfhnGZQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: 105%;
+  background-position: center;
+}
+.popular-3 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/b95d/df1c/67aaf0ce4379973527426beadb61953c?Expires=1629676800&Signature=AX71gstgoc9Zn~PKwrQmcZyXieKer2c~JYefqkWSsvsT~luvR33aHVQPWZSojr4as5sGiTTjiwiuI6UXeG8s~-4UKtvENWuPVBr3QEFIM4PnORXamf1wlcldDJJKBCs7QHauikgnCo17XMmDfsh~PYPxgGHocBgHDt9t1v0dFD5AmKdtxj6Lq~9CgEy2SIq3-81cIGXo2StqsiuTTCThVjeS5DisCIPhDRZ1GPEgDdBXbv5Wz5XypRbggJor3tVxsAH~e5MdK4HPAY1hUPl6mtbUrX5T-ohYi5B13XB~tTQWhJK6RjdCSQNa0hYVt~q9tmsGsf1KqVBF0MLpVTW0ug__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: 200%;
+  background-position: center;
+}
+.popular-4 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/6f20/2d12/efd13f0fe50d5da221473d11e0c3c8e9?Expires=1629676800&Signature=GVfrWMsMOBDTQ3upwYYgKZ6x8KcPLJZJvkPtD6ckhECKwsGB9Zr44nmgZ3Y7c~gYgrf6TsZ6ckzGZFW6BNAvvRhzaO6SgzDkCWxWUolNdtNnNCGsPEyUE~xoX3e46cgCers5DKMBmpuqYky2sZi10MuFjSk9A3E0l9jR3f~c1W9kFhhu30yrRhjLVQcBBte4vI6Kv7KwAKmb2pYsl1H3meeLRqWB9R1sJYvnxTpsGUsWhZVtvjMin6vQFakRM3Gayuyd~kPuJc54hQ2iGnOp4Jalg0Y7-2DzuHDvAiqHwEPdjBW91ReViOksJEMPyEC0RYxITRfulJluJEYUWwgoVw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: 200%;
+  background-position: center;
+}
+.name-card-text {
+  background-color: white;
+  width: 120px;
+  height: 56px;
+  border-radius: 0px 6px 0px 0px;
+  padding-top: 6px;
+}
+
+.testimonials {
+  padding: 0 181px 130px 139px;
+}
+.container {
+  padding: 0px;
+}
+.container-testimonials {
+  display: flex;
+}
+.review {
+  padding: 75px 0px;
+  flex-grow: 1;
+}
+.review-text {
+  padding-top: 1.5em;
+  padding-bottom: 3em;
+  width: 450px;
+  font-size: 24px;
+}
+.founder-circle {
+  font-weight: 700;
+  font-size: 22px;
+}
+.founder-circle > span {
+  font-weight: 400;
+  font-size: 18px;
+}
+.review-profile {
+  flex-grow: 1;
+  position: relative;
+}
+.circle-vector {
+  position: absolute;
+  left: 360px;
+  top: -1rem;
+  z-index: 1;
+}
+.plus-vector {
+  position: absolute;
+  z-index: 3;
+  top: 470px;
+  left: -1rem;
+}
+.review-photo {
+  position: absolute;
+  width: 384px;
+  height: 491px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/3aa4/7b3b/d1ae650784b3ab74155069c44a9b5699?Expires=1629676800&Signature=HwGdmKUTJxQ1Vr5VLom0wh0Qi1iRYXUqIiNqXgQAIIRFkHkHuuV7inoghsf~hmZsoaG8A4n0XW~4p6-Y1cbLW9HlyOOiT546~c5OUXIEK3g4~3guj1wPsH3Vd1FKYT-egpXFWxUoX3MXOD7MJRhckLwusAVFU1bPxGSilKe-B7TqdENyK7qf7fiCt9lyJo1LHrDYAO6GyKoMrpaUf6zESFy9fYQ6TEqf9AGdxcfJRh98UTcJsVGnjdz--6laSuE-IfDcyZ1Ff6CkjoaLR3jAW6IKV9KzvjNslAX-D3yqWIVxrH9Ycay-cqAWER7l71WIrS1dYZKyFA~-DEpiy~D0UA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  border-radius: 14px;
+  background-size: 195%;
+  background-position: 40% 0%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.white-box {
+  width: 132px;
+  height: 60px;
+  background-color: white;
+  border-radius: 16px 0px 0px 0px;
+}
+button {
+  background-color: white;
+}
+.left-button {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.left-button > img,
+.right-button > img {
+  position: absolute;
+  left: 17px;
+  top: 15px;
+}
+.right-button {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 22px;
+  bottom: 60px;
+  left: 62px;
+}
+
+footer {
+  background-color: #f9f9fb;
+  padding: 76px 91px;
+}
+
+.footer-column {
+  padding-left: 108px;
+}
+
+.footer-line {
+  border: solid 0.5px #c4c4c4;
+  margin: 20px 0px;
+}
+.social-media {
+  align-items: center;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .navbar-brand {
+    margin-left: 0;
+  }
+  .popular,
+  .testimonials {
+    padding: 71px 50px;
+  }
+  .title-hero {
+    width: auto;
+  }
+  .width-dropdown {
+    width: auto;
+  }
+  .bg-hero {
+    padding: 20px;
+  }
+  .btn-explore {
+    width: auto;
+  }
+  .review-profile {
+    justify-content: center;
+  }
+  .review-photo {
+    width: 192px;
+    height: 245.5px;
+  }
+  .plus-vector {
+    top: 235px;
+    left: -0.5rem;
+  }
+  .circle-vector {
+    left: 170px;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    width: 100%;
+  }
+  footer {
+    position: relative;
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column {
+    text-align: center;
+    padding: 0px;
+  }
+  .width-dropdown {
+    grid-template-areas:
+      "location"
+      "type"
+      "payment"
+      "date";
+  }
+  .review-text {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container-testimonials {
+    flex-direction: column;
+  }
+  footer {
+    position: relative;
+    top: 500px;
+  }
+  .footer-column {
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,225 @@
+* {
+  font-family: Nunito;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(/Nunito/Nunito-Light.ttf);
+}
+
+@font-face {
+  font-family: "Play Fair";
+  src: url(/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url(/Mulish/static/Mulish-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito 900";
+  src: url(/Nunito/Nunito-Black.ttf);
+}
+@font-face {
+  font-family: "Nunito 700";
+  src: url(/Nunito/Nunito-Bold.ttf);
+}
+
+main {
+  background-image: url(https://s3-alpha-sig.figma.com/img/b95d/df1c/67aaf0ce4379973527426beadb61953c?Expires=1630281600&Signature=doWGqAfuaPvXHcHwjbzUPckqSIi8rEJ2MLq6jgXJB0pJwuupOSv5-s9XGj3bDRcnIEXcKLRYxLEQoOQLWmPueu~YQ5nppQtuL7aPcKLk0rozeItDh6cVBna442pO6xmMI~F6FIeZA09LGXOZ~6TQtzn2vy9KrWdFgtRWMiqtycSWajMYkNe~WbRSr3nigKQDWy-O7hU8ySvG~drYQ6TUPFiaHzeJiL4shhXdquLwdfFXLfI9cQ8ugM~D1ulI0cj38-5Ufit6yTQzOMukkIiAwFiWgssL78UiQNTa8bLt8EFW8NEG-fvH17Nlntx4SfOmOJTXi44M4D0jwhtpPa8~BA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-size: 100%;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+}
+.shadow-container {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  padding: 107px 139px;
+}
+h2 {
+  font-family: "Play Fair";
+  color: white;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.sign-up {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.no-account {
+  font-family: "Nunito 700";
+  color: white;
+  font-size: 24px;
+  margin: 4rem 0 2rem 0;
+}
+.sign-up-btn-custom {
+  width: 391px;
+  height: 79px;
+  border-radius: 10px;
+  background: rgba(57, 57, 57, 1);
+  color: rgba(255, 205, 97, 1);
+  font-family: "Nunito 900";
+  font-size: 24px;
+  margin-bottom: 9rem;
+}
+
+.line {
+  border-left: 1px solid white;
+  height: auto;
+  width: 1px;
+  margin: 0px 3rem;
+}
+
+input[type="text"],
+select {
+  background: rgba(255, 255, 255, 0.26);
+  width: 447px;
+  height: 79px;
+  padding: 12px 20px;
+  margin-top: 34px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: white;
+  font-family: "Nunito 700";
+  font-size: 24px;
+}
+.forgot-password {
+  padding: 14px 0 49px 0px;
+}
+.forgot-password > a {
+  font-size: 18px;
+  color: white !important;
+  font-family: Mulish;
+}
+
+.btn-login {
+  background-color: #ffcd61;
+  width: 446px;
+  height: 79px;
+  font-size: 24px;
+  border-radius: 10px;
+  font-family: "Nunito 900";
+}
+.btn-login-with-google {
+  background-color: white;
+  width: 446px;
+  height: 79px;
+  font-size: 24px;
+  border-radius: 10px;
+  font-family: "Nunito 900";
+  margin-top: 57px;
+}
+.btn-login-with-google > img {
+  width: 33px;
+  height: 31px;
+}
+footer {
+  background-color: #f9f9fb;
+  padding: 76px 91px;
+}
+
+.footer-column {
+  padding-left: 108px;
+}
+
+.footer-line {
+  border: solid 0.5px #c4c4c4;
+  margin: 20px 0px;
+}
+.social-media {
+  align-items: center;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer-column > p {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .shadow-container {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  main {
+    background-size: 350%;
+  }
+  .sign-up,
+  .login-field {
+    text-align: center;
+  }
+  .sign-up-btn-custom {
+    margin-bottom: 5rem;
+  }
+  .shadow-container {
+    padding: 10px;
+  }
+  .footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-column {
+    text-align: center;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  main {
+    background-size: 500%;
+  }
+  p.no-account {
+    margin: 32px 0 16px 0px;
+  }
+  .sign-up-btn-custom {
+    width: 175px;
+    height: 60px;
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  input[type="text"],
+  select {
+    width: 223px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  div.forgot-password {
+    padding: 14px 0 20px 0;
+  }
+  .btn-login,
+  .btn-login-with-google {
+    width: 223px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .btn-login-with-google {
+    margin-top: 25px;
+  }
+  .btn-login-with-google > img {
+    width: 16px;
+    height: 15px;
+  }
+}
